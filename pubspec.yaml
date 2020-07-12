@@ -1,0 +1,123 @@
+name: virtual_city_app
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter:
+  http:
+  getflutter: ^1.0.11
+  audioplayers: ^0.15.1
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  location: ^2.3.5
+  path_provider: ^1.3.0
+  wakelock: ^0.1.3
+  augmented_reality_plugin_wikitude:
+    path: ./plugin/augmented_reality_plugin_wikitude/
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  build_runner: ^1.7.1
+  json_serializable: ^3.2.3
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/preloader.gif
+   - assets/preloader1.gif
+   - assets/banner.png
+   - assets/banner2.png
+   - samples/
+   - samples/09_ObtainPoiData_3_FromWebservice/
+   - samples/09_ObtainPoiData_3_FromWebservice/js/
+   - samples/09_ObtainPoiData_3_FromWebservice/assets/
+   - samples/09_ObtainPoiData_3_FromWebservice/jquery/
+   - samples/09_ObtainPoiData_3_FromWebservice/jquery/images/
+   - samples/09_ObtainPoiData_2_FromLocalResource/
+   - samples/09_ObtainPoiData_2_FromLocalResource/js/
+   - samples/09_ObtainPoiData_2_FromLocalResource/assets/
+   - samples/09_ObtainPoiData_2_FromLocalResource/jquery/
+   - samples/09_ObtainPoiData_2_FromLocalResource/jquery/images/
+   - samples/09_ObtainPoiData_1_FromApplicationModel/
+   - samples/09_ObtainPoiData_1_FromApplicationModel/js/
+   - samples/09_ObtainPoiData_1_FromApplicationModel/assets/
+   - samples/09_ObtainPoiData_1_FromApplicationModel/jquery/
+   - samples/09_ObtainPoiData_1_FromApplicationModel/jquery/images/
+   - samples/08_PointOfInterest_4_SelectingPois/
+   - samples/08_PointOfInterest_4_SelectingPois/js/
+   - samples/08_PointOfInterest_4_SelectingPois/assets/
+   - samples/08_PointOfInterest_4_SelectingPois/jquery/
+   - samples/08_PointOfInterest_4_SelectingPois/jquery/images/
+   - samples/08_PointOfInterest_3_MultiplePois/
+   - samples/08_PointOfInterest_3_MultiplePois/js/
+   - samples/08_PointOfInterest_3_MultiplePois/assets/
+   - samples/08_PointOfInterest_3_MultiplePois/jquery/
+   - samples/08_PointOfInterest_3_MultiplePois/jquery/images/
+   - samples/08_PointOfInterest_2_PoiWithLabel/
+   - samples/08_PointOfInterest_2_PoiWithLabel/js/
+   - samples/08_PointOfInterest_2_PoiWithLabel/assets/
+   - samples/08_PointOfInterest_2_PoiWithLabel/jquery/
+   - samples/08_PointOfInterest_2_PoiWithLabel/jquery/images/
+   - samples/08_PointOfInterest_1_PoiAtLocation/
+   - samples/08_PointOfInterest_1_PoiAtLocation/js/
+   - samples/08_PointOfInterest_1_PoiAtLocation/assets/
+   - samples/08_PointOfInterest_1_PoiAtLocation/jquery/
+   - samples/08_PointOfInterest_1_PoiAtLocation/jquery/images/
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

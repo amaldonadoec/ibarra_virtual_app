@@ -1,0 +1,22 @@
+[
+    {
+        "category_name": "Obtain Poi Data",
+        "samples": [
+            {
+                "required_extensions": [
+                    "application_model_pois",
+                    "geo"
+                ],
+                "name": "From Application Model",
+                "path": "09_ObtainPoiData_1_FromApplicationModel/index.html",
+                "requiredFeatures": [
+                    "geo"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back",
+                    "camera_resolution": "auto"
+                }
+            }
+        ]
+    }
+]
